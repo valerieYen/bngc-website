@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Changes the whole page */
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #acacac; /* Change this to your desired background color */
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+/* The box that everything is in (the "card") */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background-color: rgb(13, 13, 14); /* Change this to your desired container background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the container */
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+}
+
+#name-intro {
+    font-family: 'Courier New', Courier, monospace;
+    color: #007bff; /* Change this to your desired text color */
+}
+
+#name {
+    font-size: 4rem; /* Adjust the size of the name */
+    color: #ffffff; /* Change this to your desired name color */
+    margin-bottom: .5rem;
+}
+
+#hometown {
+    color: #007bff;
+    margin-bottom: .5rem;
+}
+
+#email {
+    color: #ffffff; /* Change this to your desired email color */
+    text-decoration: none; /* Remove underline from email link */
+    margin-bottom: 1rem;
+}
+
+#email-link {
+    color: #ffffff; /* Change this to your desired link color */
+}
+
+
+#email-link:hover {
+    color: #007bff; /* Change this to your desired link color */
+}
+
+#bio {
+    font-size: 1.2rem; /* Adjust the size of the bio text */
+    color: #ffffff; /* Change this to your desired bio color */
+    text-align: center;
+}
+
+/* Profile picture style */
+#profile-pic {
+    width: 90%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+}
